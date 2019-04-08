@@ -126,9 +126,9 @@ CREATE TABLE `punchlist` (
 -- Insert default data. Version, admin login, etc.
 --
 
-INSERT INTO employees VALUES ('admin', NULL, 'xy.RY2HT1QTc2', 'administrator', '', '', '', 1, 1, 1, '');
+INSERT INTO employees VALUES ('admin', NULL, 'xy.RY2HT1QTc2', 'administrator', '', '', '', '', 1, 1, 1, '');
 INSERT INTO dbversion VALUES ('1.5');
-INSERT INTO punchlist VALUES ('in', '#009900', 1);
-INSERT INTO punchlist VALUES ('out', '#FF0000', 0);
-INSERT INTO punchlist VALUES ('break', '#FF9900', 0);
-INSERT INTO punchlist VALUES ('lunch', '#0000FF', 0);
+INSERT INTO punchlist VALUES ('in', '', '#009900', 1);
+INSERT INTO punchlist VALUES ('out', '', '#FF0000', 0);
+INSERT INTO punchlist VALUES ('break', '', '#FF9900', 0);
+INSERT INTO punchlist VALUES ('lunch', '', '#0000FF', 0);
