@@ -366,12 +366,12 @@ $weather_units = "c";
 /* set this list to your local weather station location
    the entry format (all fields are required) is  
    
-   'Metar(ICAO) | Name of station | dist-mi | dist-km | direction |'
+   "Metar(ICAO) | Name of station | dist-mi | dist-km | direction |"
    
    Note that the trailing | is required. 
    You may have two in the array, which will show weather conditions 
    for two different stations, in which case you enter  
-   array('a|b|c|d|e|','F|G|H|I|J|')   
+   array("a|b|c|d|e|","F|G|H|I|J|")   
    You can find a list of valid ICAO codes at:
    https://pilotweb.nas.faa.gov/qryhtml/icao/            */
    
