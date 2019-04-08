@@ -78,7 +78,7 @@ $disable_sysedit = "no";
    "yes" or "no". If "yes" is chosen, users will be required to enter a password
    whenever they change their status. Default is "no". */
 
-$use_passwd = "yes";
+$use_passwd = "no";
 
 
 /* If you only want certain users to have the ability to view and run the reports, 
@@ -375,8 +375,7 @@ $weather_units = "c";
    You can find a list of valid ICAO codes at:
    https://pilotweb.nas.faa.gov/qryhtml/icao/            */
    
-$WxList = array();
-$WxList = array('KTOP|Topeka, Kansas|4|7|NE|');
+$WxList = array("KTOP|Topeka, Kansas|4|7|NE|");
 
 /*  NOTE: this *MUST* be set correctly to
     translate UTC times to your LOCAL time for the weather displays.
@@ -392,7 +391,7 @@ $WxList = array('KTOP|Topeka, Kansas|4|7|NE|');
     
     */
 
-$WxTimeZone = 'America/Chicago'; 
+$WxTimeZone = "America/Chicago"; 
 
 /*  *************************************************************************
     the next two config values are depricated, don't bother to update them. 
