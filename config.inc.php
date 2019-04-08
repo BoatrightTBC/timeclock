@@ -431,5 +431,5 @@ $title = "$app_name $app_version";
 /* --- DO NOT CHANGE ANYTHING BELOW THIS LINE!!! --- */
 
 
-$dbversion = "1.4";
+$dbversion = "1.5";
 ?>
