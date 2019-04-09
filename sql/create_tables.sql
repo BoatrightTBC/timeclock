@@ -46,7 +46,7 @@ CREATE TABLE `employees` (
   `employee_passwd` varchar(25) COLLATE utf8_bin NOT NULL DEFAULT '',
   `displayname` varchar(50) COLLATE utf8_bin NOT NULL DEFAULT '',
   `email` varchar(75) COLLATE utf8_bin NOT NULL DEFAULT '',
-  `barcode` varchar(75) COLLATE utf8_bin UNIQUE,
+  `barcode` varchar(75) COLLATE utf8_bin NOT NULL DEFAULT '',
   `groups` varchar(50) COLLATE utf8_bin NOT NULL DEFAULT '',
   `office` varchar(50) COLLATE utf8_bin NOT NULL DEFAULT '',
   `admin` tinyint(1) NOT NULL DEFAULT '0',
