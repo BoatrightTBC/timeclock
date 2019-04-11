@@ -78,7 +78,7 @@ $disable_sysedit = "no";
    "yes" or "no". If "yes" is chosen, users will be required to enter a password
    whenever they change their status. Default is "no". */
 
-$use_passwd = "yes";
+$use_passwd = "no";
 
 
 /* If you only want certain users to have the ability to view and run the reports, 
@@ -366,17 +366,16 @@ $weather_units = "c";
 /* set this list to your local weather station location
    the entry format (all fields are required) is  
    
-   'Metar(ICAO) | Name of station | dist-mi | dist-km | direction |'
+   "Metar(ICAO) | Name of station | dist-mi | dist-km | direction |"
    
    Note that the trailing | is required. 
    You may have two in the array, which will show weather conditions 
    for two different stations, in which case you enter  
-   array('a|b|c|d|e|','F|G|H|I|J|')   
+   array("a|b|c|d|e|","F|G|H|I|J|")   
    You can find a list of valid ICAO codes at:
    https://pilotweb.nas.faa.gov/qryhtml/icao/            */
    
-$WxList = array();
-$WxList = array('KTOP|Topeka, Kansas|4|7|NE|');
+$WxList = array("KTOP|Topeka, Kansas|4|7|NE|");
 
 /*  NOTE: this *MUST* be set correctly to
     translate UTC times to your LOCAL time for the weather displays.
@@ -392,7 +391,7 @@ $WxList = array('KTOP|Topeka, Kansas|4|7|NE|');
     
     */
 
-$WxTimeZone = 'America/Chicago'; 
+$WxTimeZone = "America/Chicago"; 
 
 /*  *************************************************************************
     the next two config values are depricated, don't bother to update them. 
@@ -431,5 +430,5 @@ $title = "$app_name $app_version";
 /* --- DO NOT CHANGE ANYTHING BELOW THIS LINE!!! --- */
 
 
-$dbversion = "1.4";
+$dbversion = "1.5";
 ?>
